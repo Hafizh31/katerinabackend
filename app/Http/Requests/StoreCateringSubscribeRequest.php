@@ -34,8 +34,8 @@ class StoreCateringSubscribeRequest extends FormRequest
 
             'catering_package_id' => 'required|integer',
             'catering_tier_id' => 'required|integer',
-            
-            'proof' => 'required|file|mimes:ping.jpg,jpeg|max:2048',
+
+            'proof' => 'required|file|mimes:png,jpg,jpeg|max:2048',
         ];
     }
 }
